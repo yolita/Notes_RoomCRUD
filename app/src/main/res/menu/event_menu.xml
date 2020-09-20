@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/eventDetailsMenuItems">
+    <item
+        android:id="@+id/edit_menu_item"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:iconTint="@color/colorAccent"
+        android:title="Edit"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete_menu_item"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:iconTint="@color/colorAccent"
+        android:title="Remove"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    </group>
+
+    <item
+        android:id="@+id/save_menu_item"
+        android:icon="@drawable/ic_baseline_save_24"
+        android:title="Save"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>
